@@ -3,6 +3,7 @@
 	"displayName": "vscode-devaffirmations",
 	"description": "Reminds you that you are an amazing developer",
 	"publisher": "jamesinaxx",
+	"icon": "images/icon.png",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
