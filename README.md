@@ -14,7 +14,7 @@ No known issues :)
 
 ### Release Notes
 
-Initial release of vscode-devaffirmations
+Fixed a major bug that prevented the extension from working
 
 ---
 
