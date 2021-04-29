@@ -22,7 +22,7 @@
 		"commands": [
 			{
 				"command": "vscode-devaffirmations.affirm",
-				"title": "Affirm Me"
+				"title": "I am a good developer"
 			}
 		]
 	},
