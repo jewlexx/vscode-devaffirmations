@@ -1,8 +1,8 @@
 {
 	"name": "vscode-devaffirmations",
 	"displayName": "vscode-devaffirmations",
-	"description": "Reminds you that you are an amazing dev",
-	"version": "0.0.1",
+	"description": "Reminds you that you are an amazing developer",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
