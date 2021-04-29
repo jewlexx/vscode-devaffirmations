@@ -4,7 +4,7 @@
 	"description": "Reminds you that you are an amazing developer",
 	"publisher": "jamesinaxx",
 	"icon": "images/icon.png",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
@@ -26,6 +26,7 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
+		"package": "vsce package --out 'dist'",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile && yarn run lint",
