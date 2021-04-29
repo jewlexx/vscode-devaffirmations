@@ -3,26 +3,30 @@
 import * as vscode from 'vscode';
 import axios from 'axios';
 
+function getAffirmation() {
+	axios
+		.get('https://www.affirmations.dev/')
+		.then((res) =>
+			vscode.window.showInformationMessage(res.data.affirmation)
+		)
+		.catch(() => console.error('Failed to get affirmation'));
+}
+
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
-export function activate(context: vscode.ExtensionContext) {
+export async function activate(context: vscode.ExtensionContext) {
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
 	console.log('Extension vscode-devaffirmations has been enabled');
+
+	getAffirmation();
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand(
 		'vscode-devaffirmations.affirm',
-		() => {
-			// The code you place here will be executed every time your command is executed
-
-			axios.get('https://www.affirmations.dev/').then((res) => {
-				// Display a message box to the user
-				vscode.window.showInformationMessage(res.data.affirmation);
-			});
-		}
+		() => getAffirmation()
 	);
 
 	context.subscriptions.push(disposable);
