@@ -1,17 +1,12 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-import axios from 'axios';
+import { getRandomAffirmation } from './lib/affirmations';
 
-function getAffirmation() {
-	axios
-		.get('https://www.affirmations.dev/')
-		.then((res) =>
-			vscode.window.showInformationMessage(
-				res.data.affirmation + ' - Dev Affirmations'
-			)
-		)
-		.catch(() => console.error('Failed to get affirmation'));
+async function getAffirmation() {
+	vscode.window.showInformationMessage(
+		(await getRandomAffirmation()) + ' - Dev Affirmations'
+	);
 }
 
 // this method is called when your extension is activated
