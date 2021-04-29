@@ -7,7 +7,9 @@ function getAffirmation() {
 	axios
 		.get('https://www.affirmations.dev/')
 		.then((res) =>
-			vscode.window.showInformationMessage(res.data.affirmation)
+			vscode.window.showInformationMessage(
+				res.data.affirmation + ' - Dev Affirmations'
+			)
 		)
 		.catch(() => console.error('Failed to get affirmation'));
 }
