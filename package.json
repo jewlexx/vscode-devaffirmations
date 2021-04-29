@@ -46,6 +46,7 @@
 		"vscode-test": "^1.5.0"
 	},
 	"dependencies": {
-		"global": "^4.4.0"
+		"global": "^4.4.0",
+		"vsce": "^1.87.1"
 	}
 }
