@@ -10,7 +10,7 @@ Simply shows a message on startup and when you run the "Affirm Me" command
 
 ## Known Issues
 
-No known issues :)
+The icon sucks - Working on a custom icon btw
 
 ### Release Notes
 
