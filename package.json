@@ -2,6 +2,7 @@
 	"name": "vscode-devaffirmations",
 	"displayName": "vscode-devaffirmations",
 	"description": "Reminds you that you are an amazing developer",
+	"publisher": "jamesinaxx",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
@@ -30,6 +31,9 @@
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},
+	"repository": {
+		"url": "https://github.com/jamesinaxx/vscode-devaffirmations"
+	},
 	"devDependencies": {
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.4",
@@ -44,9 +48,5 @@
 		"prettier": "^2.2.1",
 		"typescript": "^4.1.3",
 		"vscode-test": "^1.5.0"
-	},
-	"dependencies": {
-		"global": "^4.4.0",
-		"vsce": "^1.87.1"
 	}
 }
