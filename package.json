@@ -10,15 +10,15 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscode-devaffirmations.helloWorld",
+		"onCommand:vscode-devaffirmations.affirm",
 		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vscode-devaffirmations.helloWorld",
-				"title": "Hello World"
+				"command": "vscode-devaffirmations.affirm",
+				"title": "Affirm Me"
 			}
 		]
 	},
