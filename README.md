@@ -15,6 +15,7 @@ The icon sucks - Working on a custom icon btw
 ### Release Notes
 
 Fixed a few issues and improved performance
+
 Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/public/CHANGELOG.md) for more info
 
 ---
