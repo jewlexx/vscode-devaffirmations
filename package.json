@@ -30,7 +30,7 @@
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"package": "vsce package --out 'dist'",
-		"publish": "vsce package && vsce publish",
+		"spublish": "vsce package && vsce publish",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile && yarn run lint",
