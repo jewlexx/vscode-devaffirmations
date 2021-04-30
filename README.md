@@ -14,7 +14,8 @@ The icon sucks - Working on a custom icon btw
 
 ### Release Notes
 
-Fixed a major bug that prevented the extension from working
+Fixed a few issues and improved performance
+Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/public/CHANGELOG.md) for more info
 
 ---
 
