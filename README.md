@@ -20,4 +20,4 @@ Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/
 
 ---
 
-**Enjoy and remeber your amazing!**
+**Enjoy and remeber you're amazing!**
