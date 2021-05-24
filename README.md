@@ -8,6 +8,14 @@ Simply shows a message on startup and when you run the "Affirm Me" command
 
 ![feature X](https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/images/demo.png)
 
+## Adding Features
+
+Tutorial coming soon...
+
+In the meantime, fork and pr.
+
+To add affirmations edit [affirmations.ts](src/lib/affirmations.ts)
+
 ## Known Issues
 
 The icon sucks - Working on a custom icon btw
