@@ -8,7 +8,7 @@ assignees: jamesinaxx
 ---
 
 **Describe the changes**
-A clear and concise description of what the bug is.
+A clear and concise description of what the changes are.
 
 **List added affirmations**
 * {affirmation}
@@ -16,10 +16,10 @@ A clear and concise description of what the bug is.
 **Screenshots**
 If applicable, add screenshots to show the new affirmations and given format.
 
-**Desktop (please complete the following information):**
- - Testing OS: [e.g. Windows 10]
- - Testing VSCode Version:  [eg. 1.56]
- - Testing Version [e.g. 22]
+**Testing versions (please complete the following information):**
+ - OS: [e.g. Windows 10]
+ - VSCode Version:  [eg. 1.56]
+ - Version [e.g. 22]
 
 **Additional context**
 Add any other context about the changes here.
