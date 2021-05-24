@@ -6,10 +6,10 @@ assignees: jamesinaxx
 ---
 
 **Describe the changes**
-A clear and concise description of what the bug is.
+A clear and concise description of what the changes are.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+If applicable, add screenshots to help explain your changes.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows 10]
@@ -17,4 +17,4 @@ If applicable, add screenshots to help explain your problem.
  - Version [e.g. 22]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the changes here.
