@@ -1,7 +1,5 @@
 # Developer Affirmations README
 
-![Icon](assets/icon.png)
-
 A simple extension for vscode that reminds you of how amazing you are
 
 ## Features
@@ -31,3 +29,5 @@ Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/
 ---
 
 **Enjoy and remeber you're amazing!**
+
+![Icon](assets/icon.png)
