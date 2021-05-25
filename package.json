@@ -29,7 +29,7 @@
 	"license": "MIT",
 	"scripts": {
 		"vscode:prepublish": "yarn compile",
-		"package": "vsce package --out 'dist'",
+		"package": "vsce package --out dist",
 		"publish": "vsce package && vsce publish",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
@@ -52,12 +52,12 @@
 		"@types/vscode": "^1.55.0",
 		"@typescript-eslint/eslint-plugin": "^4.14.1",
 		"@typescript-eslint/parser": "^4.14.1",
+		"axios": "^0.21.1",
 		"eslint": "^7.25.0",
 		"glob": "^7.1.6",
 		"mocha": "^8.2.1",
 		"prettier": "^2.2.1",
 		"typescript": "^4.1.3",
-		"vscode-test": "^1.5.0",
-		"axios": "^0.21.1"
+		"vscode-test": "^1.5.0"
 	}
 }
