@@ -6,7 +6,7 @@ A simple extension for vscode that reminds you of how amazing you are
 
 Simply shows a message on startup and when you run the "Affirm Me" command
 
-![feature X](https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/images/demo.png)
+![Demo](assets/demo.png)
 
 ## Adding Features
 
