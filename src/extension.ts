@@ -2,11 +2,19 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 import { getRandomAffirmation } from './lib/affirmations';
+import axios from 'axios';
 
 async function getAffirmation() {
-	vscode.window.showInformationMessage(
-		(await getRandomAffirmation()) + ' - Dev Affirmations'
-	);
+	try {
+		vscode.window.showInformationMessage(
+			(await axios.get('https://jamesinaxx.me/api/affirmations')).data
+				.affirmation
+		);
+	} catch (error) {
+		if (error.dueToNoInternetConnection) {
+			vscode.window.showInformationMessage(getRandomAffirmation());
+		}
+	}
 }
 
 // this method is called when your extension is activated

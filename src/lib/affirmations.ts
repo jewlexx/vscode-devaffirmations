@@ -49,7 +49,7 @@ const affirmations = [
 	"It's not a mistake, it's a learning opportunity",
 ];
 
-const getRandomAffirmation = async () =>
+const getRandomAffirmation = () =>
 	affirmations[Math.floor(Math.random() * affirmations.length)];
 
 export { getRandomAffirmation, affirmations };
