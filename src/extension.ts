@@ -7,8 +7,11 @@ import axios from 'axios';
 async function getAffirmation() {
 	try {
 		vscode.window.showInformationMessage(
-			(await axios.get('https://jamesinaxx.me/api/affirmations')).data
-				.affirmation
+			(
+				await axios.get('https://jamesinaxx.me/api/affirmations', {
+					timeout: 10,
+				})
+			).data.affirmation
 		);
 	} catch (error) {
 		if (error.dueToNoInternetConnection) {
