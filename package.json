@@ -1,7 +1,7 @@
 {
 	"name": "vscode-devaffirmations",
 	"displayName": "Developer Affirmations",
-	"description": "Reminds you that you are an amazing developer",
+	"description": "Reminds you of what an amazing developer you are through notifications that run on startup and through a command",
 	"publisher": "jamesinaxx",
 	"icon": "assets/icon.png",
 	"version": "1.1.2",
