@@ -4,7 +4,7 @@ All notable changes to the "vscode-devaffirmations" extension will be documented
 
 ## [1.1.5]
 
--   Fixed README
+-   Fixed README images not working on external sites like openvsx and vsc marketplace
 
 ## [1.1.4]
 
