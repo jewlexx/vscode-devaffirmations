@@ -1,4 +1,4 @@
-# <img src="./assets/icon.png" alt="icon" width="50"/> Developer Affirmations README
+# <img src="https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/assets/icon.png" alt="icon" width="50"/> Developer Affirmations README
 
 A simple extension for vscode that reminds you of how amazing you are
 
@@ -6,7 +6,7 @@ A simple extension for vscode that reminds you of how amazing you are
 
 Simply shows a message on startup and when you run the "Affirm Me" command
 
-![Demo](assets/demo.png)
+![Demo](https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/assets/demo.png)
 
 ## Adding Features
 
@@ -14,7 +14,7 @@ Tutorial coming soon...
 
 In the meantime, fork and pr.
 
-To add affirmations edit [affirmations.ts](src/lib/affirmations.ts)
+To add affirmations edit [affirmations.ts](https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/src/lib/affirmations.ts)
 
 ## Known Issues
 
@@ -28,4 +28,4 @@ Check the [changelog](CHANGELOG.md) for detailed info on noteable changes
 
 **Enjoy and remeber, you are amazing!**
 
-<img src="./assets/icon.png" alt="icon" width="500"/>
+<img src="https://raw.githubusercontent.com/jamesinaxx/vscode-devaffirmations/public/assets/icon.png" alt="icon" width="500"/>

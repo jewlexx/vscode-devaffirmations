@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-devaffirmations" extension will be documented in this file.
 
+## [1.1.5]
+
+-   Fixed README
+
 ## [1.1.4]
 
 -   Made axios a dependency fixing request bug
