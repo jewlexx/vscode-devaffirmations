@@ -1,4 +1,4 @@
-# Developer Affirmations README
+# <img src="./assets/icon.png" alt="icon" width="50"/> Developer Affirmations README
 
 A simple extension for vscode that reminds you of how amazing you are
 
@@ -30,4 +30,4 @@ Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/
 
 **Enjoy and remeber you're amazing!**
 
-![Icon](assets/icon.png)
+<img src="./assets/icon.png" alt="icon" width="500"/>
