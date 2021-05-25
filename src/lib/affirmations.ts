@@ -1,5 +1,4 @@
-// These affirmations were gotten from https://affirmations.dev
-
+// The following affirmations were gotten from https://affirmations.dev
 const affirmations = [
 	'You got this',
 	"You'll figure it out",
