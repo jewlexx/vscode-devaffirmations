@@ -8,5 +8,5 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: yarn install # runs during prebuild
+  - init: yarn && yarn compile # runs during prebuild
     command: yarn compile
