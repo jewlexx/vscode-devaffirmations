@@ -29,7 +29,7 @@
 	"license": "MIT",
 	"scripts": {
 		"vscode:prepublish": "yarn compile",
-		"package": "vsce package --out dist",
+		"package": "vsce package",
 		"publish": "vsce package && vsce publish",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
