@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-devaffirmations" extension will be documented in this file.
 
+## [1.1.3]
+
+-   Fixed a major bug with the axios timeout not being caught
+
 ## [1.1.2]
 
 -   Updated icon
