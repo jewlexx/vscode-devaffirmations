@@ -18,16 +18,14 @@ To add affirmations edit [affirmations.ts](src/lib/affirmations.ts)
 
 ## Known Issues
 
-The icon sucks - Working on a custom icon btw
+No known issues as of right now... We are squeaky clean!
 
 ### Release Notes
 
-Fixed a few issues and improved performance
-
-Check the [changelog](https://github.com/jamesinaxx/vscode-devaffirmations/blob/public/CHANGELOG.md) for more info
+Check the [changelog](CHANGELOG.md) for detailed info on noteable changes
 
 ---
 
-**Enjoy and remeber you're amazing!**
+**Enjoy and remeber, you are amazing!**
 
 <img src="./assets/icon.png" alt="icon" width="500"/>

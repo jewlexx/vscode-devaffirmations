@@ -2,6 +2,16 @@
 
 All notable changes to the "vscode-devaffirmations" extension will be documented in this file.
 
+## [1.1.2]
+
+-   Updated icon
+-   Changed affirmation format
+-   Moved to using proprietary api as primary source for affirmations
+
+## [1.1.1]
+
+-   Fixed a few issues and improved performance
+
 ## [1.1.0]
 
 -   Made affirmations local meaning no more HTTP requests, works offline, and better performance
