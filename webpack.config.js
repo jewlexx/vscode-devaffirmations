@@ -29,6 +29,7 @@ const configGet = () => {
 		},
 		module: {
 			rules: [
+				{ test: /\.json$/, loader: 'json' },
 				{
 					test: /\.ts$/,
 					exclude: /node_modules/,
