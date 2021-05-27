@@ -3,6 +3,8 @@
 
 const path = require('path');
 const webpack = require('webpack');
+const axios = require('axios').default;
+const fs = require('fs');
 
 const configGet = () => {
 	/**
@@ -41,6 +43,19 @@ const configGet = () => {
 			],
 		},
 	};
+
+	axios
+		.get(
+			'https://raw.githubusercontent.com/jamesinaxx/jamesinaxx/public/affirmations.json'
+		)
+		.then(affirmations =>
+			fs.writeFileSync('./src/lib/affirmations.json', affirmations.data)
+		)
+		.catch(error =>
+			console.log(
+				'Failed to download affirmations, using built in ones: ' + error
+			)
+		);
 
 	return config;
 };
